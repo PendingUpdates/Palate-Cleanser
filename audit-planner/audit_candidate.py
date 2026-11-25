@@ -12,7 +12,7 @@ import sys
 
 
 BASELINE_COMMIT = "0c181c54d277dda642be09890ca665b1f77e7d84"
-DISPLAY_NAME = "Pallette Clenser"
+DISPLAY_NAME = "Palate Cleanser"
 # Reserved, intentionally synthetic identifiers, not real signatures or hashes.
 FIXTURE_PRODUCT = "org.example.audit-fixture-browser"
 FIXTURE_PUBLISHER = "Example Synthetic Publisher"

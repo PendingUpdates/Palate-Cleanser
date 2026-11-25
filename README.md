@@ -1,6 +1,6 @@
-# Pallette Clenser
+# Palate Cleanser
 
-![Pallette Clenser fruit-bowl artwork](docs/assets/Pallette-Clenser.png)
+![Palate Cleanser fruit-bowl artwork](docs/assets/Palate-Cleanser.png)
 
 Audit and plan potentially unwanted app cleanup.
 
@@ -17,11 +17,11 @@ The supported Python launcher reads supplied synthetic test inventories and flag
 From the repository root:
 
 ```sh
-python3 -B pallette_clenser.py
-python3 -B pallette_clenser.py --inventory-stdin < audit-planner/examples/owned-fixture.json
+python3 -B palate_cleanser.py
+python3 -B palate_cleanser.py --inventory-stdin < audit-planner/examples/owned-fixture.json
 ```
 
-The default prints an empty JSON report, not a clean-host result. Explicit stdin mode evaluates only supplied data; output is stdout. Shell redirection reads the selected fixture. The launcher reads its own local Python module, never legacy PowerShell. Reports include proposed human reviews, skipped items, errors and an always-empty `changes` list. Exit 0 can include skips; invalid input/arguments return 2.
+The previous launcher filename remains supported for existing automation. The default prints an empty JSON report, not a clean-host result. Explicit stdin mode evaluates only supplied data; output is stdout. Shell redirection reads the selected fixture. The launcher reads its own local Python module, never legacy PowerShell. Reports include proposed human reviews, skipped items, errors and an always-empty `changes` list. Exit 0 can include skips; invalid input/arguments return 2.
 
 ## Scope and safety
 
@@ -31,7 +31,7 @@ Old root PowerShell launchers and build entry now fail closed with exit 2. Histo
 
 ## Place in the menu
 
-- **Pallette Clenser:** future conservative PUP ownership review, currently synthetic-only.
+- **Palate Cleanser:** future conservative PUP ownership review, currently synthetic-only.
 - **BEC:** phishing investigation.
 - **Flapjacks:** tenant-wide configuration/security posture.
 - **HashBrown:** evidence tracking.
@@ -39,7 +39,7 @@ Old root PowerShell launchers and build entry now fail closed with exit 2. Histo
 
 [Response Menu](https://github.com/PendingUpdates/Response-Menu) · [Planner details](audit-planner/README.md) · [Development checks](docs/development.md)
 
-The canonical repository is [PendingUpdates/Pallette-Clenser](https://github.com/PendingUpdates/Pallette-Clenser). The display name is Pallette Clenser. No release-version reset is included. JSON `schema_version: 1` is a schema identifier, not a product release version.
+The canonical repository is [PendingUpdates/Palate-Cleanser](https://github.com/PendingUpdates/Palate-Cleanser). The display name is Palate Cleanser. No release-version reset is included. JSON `schema_version: 1` is a schema identifier, not a product release version.
 
 ## License
 

@@ -115,7 +115,7 @@ class AuditSafetyTests(unittest.TestCase):
             result = self.audit(inventory)
         self.assertEqual(inventory, before, "Planner mutated supplied inventory")
         self.assertEqual(result["mode"], "Audit")
-        self.assertEqual(result["display_name"], "Pallette Clenser")
+        self.assertEqual(result["display_name"], "Palate Cleanser")
         self.assertEqual(result["evidence_scope"], "supplied_synthetic_inventory")
         self.assertEqual(result["changes"], [])
         self.assertEqual(result["schema_version"], 1)

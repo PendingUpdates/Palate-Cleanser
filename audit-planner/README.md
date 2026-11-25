@@ -1,4 +1,4 @@
-# Pallette Clenser: synthetic audit planner
+# Palate Cleanser: synthetic audit planner
 
 This separate Python experiment reads supplied synthetic inventory and emits a JSON review plan. It does not scan a host, detect real PUPs, remove anything, or establish that a system is clean. Only the reserved fake product `org.example.audit-fixture-browser` has a rule; all real products remain unsupported.
 
